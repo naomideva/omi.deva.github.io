@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog</title>
+</head>
+<link rel="stylesheet" href="contact.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+<body>
+  <header>
+    <div class="navbarr">
+      <h1>☎️ Contact Us</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="custom.html">Blog</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+  <br>
+  <article>
+    <header>
+      <div class="judul">
+        <h2>Hubungi Kami</h2>
+      </div>
+    </header>
+
+    <div class="contactus">
+      <form action="get">
+        <div>
+          <label for="nama">Nama Lengkap</label><br>
+          <input type="text" name="nama">
+        </div>
+        <div>
+          <label for="alamat">Alamat Email</label><br>
+          <input type="email" name="email">
+        </div>
+        <div class="radio">
+          <label for="kategori">Kategori</label> <br>
+          <label for="laporan">
+            <input type="radio" id="laporan" name="kategori" value="Laporan">Laporan
+          </label>
+          <label for="masukkan">
+            <input type="radio" id="masukkan" name="kategori" value="Masukkan">Masukkan
+          </label>
+        </div>
+        <div>
+          <label for="pesan">Pesan</label><br>
+          <textarea name="pesan"></textarea>
+        </div>
+        <div class="confirm">
+          <input type="checkbox" name="konfirmasi" id="konfirmasi"> Konfirmasi Tindakan
+        </div>
+        <div class="button">
+          <button type="submit" name="kirim" id="kirim">Kirim</button>
+        </div>
+      </form>
+    </div>
+</body>
+
+</html>
